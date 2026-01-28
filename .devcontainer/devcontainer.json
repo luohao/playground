@@ -1,0 +1,13 @@
+{
+  "name": "playground devcontainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  "postCreateCommand": "/workspaces/playground/.devcontainer/post-create.sh",
+  "remoteUser": "vscode"
+}
